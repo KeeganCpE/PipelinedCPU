@@ -1,4 +1,4 @@
-#PipelinedCPU
+# PipelinedCPU
 
 Simplified ARM-based CPU created in Verilog based on the following diagram:
 
@@ -16,7 +16,7 @@ Hazard handling
   • Data forwarding  – EX/MEM → EX  and  MEM/WB → EX  (Figure 4.55)
   • Load-use stall   – inserts 1 NOP bubble, freezes IF/ID & PC
 
-#Testbench Explanation (RISC-V machine code loaded into imem):
+# Testbench Explanation (RISC-V machine code loaded into imem):
 
   addi x1, x0, 5      ; x1 = 5
   addi x2, x0, 10     ; x2 = 10
